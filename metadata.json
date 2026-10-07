@@ -1,0 +1,8 @@
+{
+  "name": "AeroTrack - Aerial Vision & Drone Telemetry Engine",
+  "description": "Real-time computer vision system for drone footage object tracking, YOLOv11 + ByteTrack inference, virtual tripwire analytics, and FastAPI telemetry.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
