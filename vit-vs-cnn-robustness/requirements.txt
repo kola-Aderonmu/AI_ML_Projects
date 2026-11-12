@@ -1,0 +1,10 @@
+# Google Colab already has torch/torchvision/numpy/pandas/matplotlib installed.
+# These are for running locally. Install torch/torchvision first from pytorch.org.
+torch
+torchvision
+timm
+albumentations<2
+numpy
+pandas
+matplotlib
+pillow
