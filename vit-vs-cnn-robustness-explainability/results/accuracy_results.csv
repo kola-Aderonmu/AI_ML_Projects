@@ -1,0 +1,27 @@
+model,corruption,severity,accuracy
+ResNet-18 (CNN),clean,0,0.9645
+ResNet-18 (CNN),fog,1,0.9615
+ResNet-18 (CNN),fog,2,0.9405
+ResNet-18 (CNN),fog,3,0.8735
+ResNet-18 (CNN),blur,1,0.9665
+ResNet-18 (CNN),blur,2,0.9655
+ResNet-18 (CNN),blur,3,0.952
+ResNet-18 (CNN),low_light,1,0.9275
+ResNet-18 (CNN),low_light,2,0.876
+ResNet-18 (CNN),low_light,3,0.749
+ResNet-18 (CNN),noise,1,0.7045
+ResNet-18 (CNN),noise,2,0.496
+ResNet-18 (CNN),noise,3,0.174
+DeiT-Tiny (ViT),clean,0,0.959
+DeiT-Tiny (ViT),fog,1,0.9525
+DeiT-Tiny (ViT),fog,2,0.9385
+DeiT-Tiny (ViT),fog,3,0.903
+DeiT-Tiny (ViT),blur,1,0.959
+DeiT-Tiny (ViT),blur,2,0.9575
+DeiT-Tiny (ViT),blur,3,0.951
+DeiT-Tiny (ViT),low_light,1,0.888
+DeiT-Tiny (ViT),low_light,2,0.811
+DeiT-Tiny (ViT),low_light,3,0.676
+DeiT-Tiny (ViT),noise,1,0.9065
+DeiT-Tiny (ViT),noise,2,0.787
+DeiT-Tiny (ViT),noise,3,0.5575
